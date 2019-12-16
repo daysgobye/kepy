@@ -13,248 +13,248 @@ class Keycode:
     different variations of a keyboard.
     """
     #pylint: disable-msg=invalid-name
-    A = 0x04
+    A = 4
     """``a`` and ``A``"""
-    B = 0x05
+    B = 5
     """``b`` and ``B``"""
-    C = 0x06
+    C = 6
     """``c`` and ``C``"""
-    D = 0x07
+    D = 7
     """``d`` and ``D``"""
-    E = 0x08
+    E = 8
     """``e`` and ``E``"""
-    F = 0x09
+    F = 9
     """``f`` and ``F``"""
-    G = 0x0A
+    G = 10
     """``g`` and ``G``"""
-    H = 0x0B
+    H = 11
     """``h`` and ``H``"""
-    I = 0x0C
+    I = 12
     """``i`` and ``I``"""
-    J = 0x0D
+    J = 13
     """``j`` and ``J``"""
-    K = 0x0E
+    K = 14
     """``k`` and ``K``"""
-    L = 0x0F
+    L = 15
     """``l`` and ``L``"""
-    M = 0x10
+    M = 16
     """``m`` and ``M``"""
-    N = 0x11
+    N = 17
     """``n`` and ``N``"""
-    O = 0x12
+    O = 18
     """``o`` and ``O``"""
-    P = 0x13
+    P = 19
     """``p`` and ``P``"""
-    Q = 0x14
+    Q = 20
     """``q`` and ``Q``"""
-    R = 0x15
+    R = 21
     """``r`` and ``R``"""
-    S = 0x16
+    S = 22
     """``s`` and ``S``"""
-    T = 0x17
+    T = 23
     """``t`` and ``T``"""
-    U = 0x18
+    U = 24
     """``u`` and ``U``"""
-    V = 0x19
+    V = 25
     """``v`` and ``V``"""
-    W = 0x1A
+    W = 26
     """``w`` and ``W``"""
-    X = 0x1B
+    X = 27
     """``x`` and ``X``"""
-    Y = 0x1C
+    Y = 28
     """``y`` and ``Y``"""
-    Z = 0x1D
+    Z = 29
     """``z`` and ``Z``"""
 
-    ONE = 0x1E
+    ONE = 30
     """``1`` and ``!``"""
-    TWO = 0x1F
+    TWO = 31
     """``2`` and ``@``"""
-    THREE = 0x20
+    THREE = 32
     """``3`` and ``#``"""
-    FOUR = 0x21
+    FOUR = 33
     """``4`` and ``$``"""
-    FIVE = 0x22
+    FIVE = 34
     """``5`` and ``%``"""
-    SIX = 0x23
+    SIX = 35
     """``6`` and ``^``"""
-    SEVEN = 0x24
+    SEVEN = 36
     """``7`` and ``&``"""
-    EIGHT = 0x25
+    EIGHT = 37
     """``8`` and ``*``"""
-    NINE = 0x26
+    NINE = 38
     """``9`` and ``(``"""
-    ZERO = 0x27
+    ZERO = 39
     """``0`` and ``)``"""
-    ENTER = 0x28
+    ENTER = 40
     """Enter (Return)"""
     RETURN = ENTER
     """Alias for ``ENTER``"""
-    ESCAPE = 0x29
+    ESCAPE = 41
     """Escape"""
-    BACKSPACE = 0x2A
+    BACKSPACE = 42
     """Delete backward (Backspace)"""
-    TAB = 0x2B
+    TAB = 43
     """Tab and Backtab"""
-    SPACEBAR = 0x2C
+    SPACEBAR = 44
     """Spacebar"""
     SPACE = SPACEBAR
     """Alias for SPACEBAR"""
-    MINUS = 0x2D
+    MINUS = 45
     """``-` and ``_``"""
-    EQUALS = 0x2E
+    EQUALS = 46
     """``=` and ``+``"""
-    LEFT_BRACKET = 0x2F
+    LEFT_BRACKET = 47
     """``[`` and ``{``"""
-    RIGHT_BRACKET = 0x30
+    RIGHT_BRACKET = 48
     """``]`` and ``}``"""
-    BACKSLASH = 0x31
+    BACKSLASH = 49
     r"""``\`` and ``|``"""
-    POUND = 0x32
+    POUND = 50
     """``#`` and ``~`` (Non-US keyboard)"""
-    SEMICOLON = 0x33
+    SEMICOLON = 51
     """``;`` and ``:``"""
-    QUOTE = 0x34
+    QUOTE = 52
     """``'`` and ``"``"""
-    GRAVE_ACCENT = 0x35
+    GRAVE_ACCENT = 53
     r""":literal:`\`` and ``~``"""
-    COMMA = 0x36
+    COMMA = 54
     """``,`` and ``<``"""
-    PERIOD = 0x37
+    PERIOD = 55
     """``.`` and ``>``"""
-    FORWARD_SLASH = 0x38
+    FORWARD_SLASH = 56
     """``/`` and ``?``"""
 
-    CAPS_LOCK = 0x39
+    CAPS_LOCK = 57
     """Caps Lock"""
 
-    F1 = 0x3A
+    F1 = 58
     """Function key F1"""
-    F2 = 0x3B
+    F2 = 59
     """Function key F2"""
-    F3 = 0x3C
+    F3 = 60
     """Function key F3"""
-    F4 = 0x3D
+    F4 = 61
     """Function key F4"""
-    F5 = 0x3E
+    F5 = 62
     """Function key F5"""
-    F6 = 0x3F
+    F6 = 63
     """Function key F6"""
-    F7 = 0x40
+    F7 = 64
     """Function key F7"""
-    F8 = 0x41
+    F8 = 65
     """Function key F8"""
-    F9 = 0x42
+    F9 = 66
     """Function key F9"""
-    F10 = 0x43
+    F10 = 67
     """Function key F10"""
-    F11 = 0x44
+    F11 = 68
     """Function key F11"""
-    F12 = 0x45
+    F12 = 69
     """Function key F12"""
 
-    PRINT_SCREEN = 0x46
+    PRINT_SCREEN = 70
     """Print Screen (SysRq)"""
-    SCROLL_LOCK = 0x47
+    SCROLL_LOCK =71
     """Scroll Lock"""
-    PAUSE = 0x48
+    PAUSE =72
     """Pause (Break)"""
 
-    INSERT = 0x49
+    INSERT =73
     """Insert"""
-    HOME = 0x4A
+    HOME =74
     """Home (often moves to beginning of line)"""
-    PAGE_UP = 0x4B
+    PAGE_UP =75
     """Go back one page"""
-    DELETE = 0x4C
+    DELETE =76
     """Delete forward"""
-    END = 0x4D
+    END =77
     """End (often moves to end of line)"""
-    PAGE_DOWN = 0x4E
+    PAGE_DOWN =78
     """Go forward one page"""
 
-    RIGHT_ARROW = 0x4F
+    RIGHT_ARROW =79
     """Move the cursor right"""
-    LEFT_ARROW = 0x50
+    LEFT_ARROW =80
     """Move the cursor left"""
-    DOWN_ARROW = 0x51
+    DOWN_ARROW =81
     """Move the cursor down"""
-    UP_ARROW = 0x52
+    UP_ARROW =82
     """Move the cursor up"""
 
-    KEYPAD_NUMLOCK = 0x53
+    KEYPAD_NUMLOCK =83
     """Num Lock (Clear on Mac)"""
-    KEYPAD_FORWARD_SLASH = 0x54
+    KEYPAD_FORWARD_SLASH =84
     """Keypad ``/``"""
-    KEYPAD_ASTERISK = 0x55
+    KEYPAD_ASTERISK =85
     """Keypad ``*``"""
-    KEYPAD_MINUS = 0x56
+    KEYPAD_MINUS =86
     """Keyapd ``-``"""
-    KEYPAD_PLUS = 0x57
+    KEYPAD_PLUS =87
     """Keypad ``+``"""
-    KEYPAD_ENTER = 0x58
+    KEYPAD_ENTER =88
     """Keypad Enter"""
-    KEYPAD_ONE = 0x59
+    KEYPAD_ONE =89
     """Keypad ``1`` and End"""
-    KEYPAD_TWO = 0x5A
+    KEYPAD_TWO =90
     """Keypad ``2`` and Down Arrow"""
-    KEYPAD_THREE = 0x5B
+    KEYPAD_THREE =91
     """Keypad ``3`` and PgDn"""
-    KEYPAD_FOUR = 0x5C
+    KEYPAD_FOUR =92
     """Keypad ``4`` and Left Arrow"""
-    KEYPAD_FIVE = 0x5D
+    KEYPAD_FIVE =93
     """Keypad ``5``"""
-    KEYPAD_SIX = 0x5E
+    KEYPAD_SIX =94
     """Keypad ``6`` and Right Arrow"""
-    KEYPAD_SEVEN = 0x5F
+    KEYPAD_SEVEN =95
     """Keypad ``7`` and Home"""
-    KEYPAD_EIGHT = 0x60
+    KEYPAD_EIGHT =96
     """Keypad ``8`` and Up Arrow"""
-    KEYPAD_NINE = 0x61
+    KEYPAD_NINE =97
     """Keypad ``9`` and PgUp"""
-    KEYPAD_ZERO = 0x62
+    KEYPAD_ZERO =98
     """Keypad ``0`` and Ins"""
-    KEYPAD_PERIOD = 0x63
+    KEYPAD_PERIOD =99
     """Keypad ``.`` and Del"""
-    KEYPAD_BACKSLASH = 0x64
+    KEYPAD_BACKSLASH =100
     """Keypad ``\\`` and ``|`` (Non-US)"""
 
-    APPLICATION = 0x65
+    APPLICATION =101
     """Application: also known as the Menu key (Windows)"""
-    POWER = 0x66
+    POWER =102
     """Power (Mac)"""
-    KEYPAD_EQUALS = 0x67
+    KEYPAD_EQUALS =103
     """Keypad ``=`` (Mac)"""
-    F13 = 0x68
+    F13 =104
     """Function key F13 (Mac)"""
-    F14 = 0x69
+    F14 =105
     """Function key F14 (Mac)"""
-    F15 = 0x6A
+    F15 =106
     """Function key F15 (Mac)"""
-    F16 = 0x6B
+    F16 =107
     """Function key F16 (Mac)"""
-    F17 = 0x6C
+    F17 =108
     """Function key F17 (Mac)"""
-    F18 = 0x6D
+    F18 =109
     """Function key F18 (Mac)"""
-    F19 = 0x6E
+    F19 =110
     """Function key F19 (Mac)"""
 
-    LEFT_CONTROL = 0xE0
+    LEFT_CONTROL =224
     """Control modifier left of the spacebar"""
     CONTROL = LEFT_CONTROL
     """Alias for LEFT_CONTROL"""
-    LEFT_SHIFT = 0xE1
+    LEFT_SHIFT =225
     """Shift modifier left of the spacebar"""
     SHIFT = LEFT_SHIFT
     """Alias for LEFT_SHIFT"""
-    LEFT_ALT = 0xE2
+    LEFT_ALT =226
     """Alt modifier left of the spacebar"""
     ALT = LEFT_ALT
     """Alias for LEFT_ALT; Alt is also known as Option (Mac)"""
     OPTION = ALT
     """Labeled as Option on some Mac keyboards"""
-    LEFT_GUI = 0xE3
+    LEFT_GUI =227
     """GUI modifier left of the spacebar"""
     GUI = LEFT_GUI
     """Alias for LEFT_GUI; GUI is also known as the Windows key, Command (Mac), or Meta"""
@@ -262,13 +262,13 @@ class Keycode:
     """Labeled with a Windows logo on Windows keyboards"""
     COMMAND = GUI
     """Labeled as Command on Mac keyboards, with a clover glyph"""
-    RIGHT_CONTROL = 0xE4
+    RIGHT_CONTROL =228
     """Control modifier right of the spacebar"""
-    RIGHT_SHIFT = 0xE5
+    RIGHT_SHIFT =229
     """Shift modifier right of the spacebar"""
-    RIGHT_ALT = 0xE6
+    RIGHT_ALT =230
     """Alt modifier right of the spacebar"""
-    RIGHT_GUI = 0xE7
+    RIGHT_GUI =231
     """GUI modifier right of the spacebar"""
 
     #pylint: enable-msg=invalid-name
