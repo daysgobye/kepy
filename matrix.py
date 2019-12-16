@@ -4,8 +4,6 @@ NULL_CHAR = chr(0)
 # from kb.keycode import key
 from keyMap.map import keyMap
 def write_report(report):
-    print (report)
-    print (report.encode())
     with open('/dev/hidg0', 'rb+') as fd:
         fd.write(report.encode())
 
