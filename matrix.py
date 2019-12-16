@@ -31,11 +31,14 @@ while True:
 
         GPIO.output(COL[j],1)
         for i in range(4):
+
             if GPIO.input(ROW[i]) == 1:
+
                 m = ((i * 4) + j)
                 time.sleep(0.1)
-		        write_report(NULL_CHAR*2+chr(matrix[m])+NULL_CHAR*5)
-		        write_report(NULL_CHAR*8)
+                write_report(NULL_CHAR*2+chr(matrix[m])+NULL_CHAR*5)
+                write_report(NULL_CHAR*8)
+
                 while(GPIO.input(ROW[i]) == 1):
                     GPIO.output(21,1)
                     time.sleep (0.2)
