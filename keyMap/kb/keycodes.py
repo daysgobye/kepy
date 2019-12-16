@@ -1,4 +1,4 @@
-class Keycode:
+class key:
     """USB HID Keycode constants.
     This list is modeled after the names for USB keycodes defined in
     https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf#page=53.
