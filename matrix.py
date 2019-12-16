@@ -35,11 +35,12 @@ while True:
                 m = ((i * 4) + j)
                 time.sleep(0.1)
                 write_report(NULL_CHAR*2+chr(matrix[m])+NULL_CHAR*5)
-                write_report(NULL_CHAR*8)
+
 
                 while(GPIO.input(ROW[i]) == 1):
                     GPIO.output(21,1)
                     time.sleep (0.2)
+                    write_report(NULL_CHAR * 8)
 
         GPIO.output(21,0)
         GPIO.output(COL[j],0)
